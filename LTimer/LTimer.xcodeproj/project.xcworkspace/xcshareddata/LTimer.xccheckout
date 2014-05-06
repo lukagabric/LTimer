@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3B08131B-3629-4518-BC71-C9B348F3AA75</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LTimer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>58F3CAFE-E56B-4A84-B540-70F09C5FAF99</key>
+		<string>https://github.com/lukagabric/LTimer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LTimer/LTimer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>58F3CAFE-E56B-4A84-B540-70F09C5FAF99</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lukagabric/LTimer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>58F3CAFE-E56B-4A84-B540-70F09C5FAF99</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>58F3CAFE-E56B-4A84-B540-70F09C5FAF99</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LTimer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
