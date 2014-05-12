@@ -98,7 +98,7 @@ static NSMutableArray *timers = nil;
 
 + (LTimer *)LTimerWithTimeInterval:(NSTimeInterval)timeInterval target:(id)target selector:(SEL)selector userInfo:(id)userInfo repeats:(BOOL)repeats
 {
-    return [LTimer LTimerWithTimeInterval:timeInterval target:target selector:selector userInfo:userInfo repeats:YES tag:-9999];
+    return [LTimer LTimerWithTimeInterval:timeInterval target:target selector:selector userInfo:userInfo repeats:repeats tag:-9999];
 }
 
 
@@ -207,7 +207,7 @@ static NSMutableArray *timers = nil;
             [invocation setSelector:selector];
             [invocation setTarget:target];
             if (_userInfo)
-                [invocation setArgument:&_userInfo atIndex:0];
+                [invocation setArgument:&_userInfo atIndex:2];
             [invocation invoke];
         }
     }
