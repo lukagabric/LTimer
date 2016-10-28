@@ -1,10 +1,11 @@
-Pod::Spec.new do |s|
-  s.name         = "LTimer"
-  s.version      = "1.0"
-  s.summary      = "iOS Timer"
-  s.platform     = :ios, '6.0'
-  s.homepage     = "https://github.com/lukagabric/LTimer"
-  s.source       = { :git => 'https://github.com/lukagabric/LTimer'}
-  s.source_files = 'LTimer/LTimer/Classes/Core/LTimer/*.{m,h,mm,hpp,cpp,c}'
-  s.requires_arc = true
+Pod::Spec.new do |spec|
+  spec.name         = 'LTimer'
+  spec.version      = '1.0'
+  spec.license      = 'MIT'
+  spec.summary      = 'iOS Timer'
+  spec.homepage     = 'https://github.com/lukagabric/LTimer'
+  spec.author       = 'Luka Gabric'
+  spec.source       = { :git => 'git://github.com/lukagabric/LTimer' }
+  spec.source_files = 'LTimer/LTimer/Classes/Core/LTimer/*.{m,h,mm,hpp,cpp,c}'
+  spec.requires_arc = true
 end
